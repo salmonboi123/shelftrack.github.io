@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShelfTrack | Smart Pantry Inventory System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fa-solid fa-box-open text-blue-600 text-2xl mr-2"></i>
+                <span class="font-bold text-xl tracking-tight text-gray-900">ShelfTrack</span>
+            </div>
+            <div>
+                <a href="https://github.com/YOUR_USERNAME/ShelfTrack" class="text-gray-500 hover:text-gray-900 transition flex items-center gap-2">
+                    <i class="fa-brands fa-github text-xl"></i>
+                    <span class="hidden sm:inline font-medium">View on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-600 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 flex flex-col items-center text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
+                Smarter Pantry Management.
+            </h1>
+            <p class="text-lg sm:text-xl text-blue-100 max-w-2xl mb-10">
+                An open-source, automated inventory system powered by Raspberry Pi. Track your pantry items seamlessly using integrated camera vision and barcode scanning.
+            </p>
+            <div class="flex gap-4">
+                <a href="https://github.com/YOUR_USERNAME/ShelfTrack" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-50 transition">
+                    Get Started
+                </a>
+                <a href="#features" class="bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-800 transition">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Built for the Modern Kitchen</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Hardware and software combined to eliminate the guesswork from grocery shopping and meal planning.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-brands fa-raspberry-pi text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Raspberry Pi Powered</h3>
+                    <p class="text-gray-600">
+                        Designed to run efficiently on Raspberry Pi hardware, acting as the central hub for local processing and inventory management.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-solid fa-barcode text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Barcode Scanning</h3>
+                    <p class="text-gray-600">
+                        Quickly log items in and out of your pantry with a physical barcode scanner for rapid, error-free data entry.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-solid fa-camera text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Camera Integration</h3>
+                    <p class="text-gray-600">
+                        Visual tracking capabilities using an integrated camera to monitor shelf space and identify untagged produce.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Getting Started Section -->
+    <section class="bg-gray-900 text-white py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to set up your own?</h2>
+            <p class="text-gray-400 mb-8">
+                Check out the repository for complete hardware wiring diagrams, functional requirements, and setup instructions.
+            </p>
+            <div class="bg-gray-800 rounded-lg p-4 font-mono text-sm text-left max-w-xl mx-auto mb-8 border border-gray-700">
+                <p class="text-green-400"># Clone the repository</p>
+                <p>git clone https://github.com/YOUR_USERNAME/ShelfTrack.git</p>
+                <p class="text-green-400 mt-2"># Navigate to the project directory</p>
+                <p>cd ShelfTrack</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 py-8 border-t border-gray-200 text-center">
+        <p class="text-gray-500 flex justify-center items-center gap-2">
+            Open Source under the MIT License <i class="fa-brands fa-osi"></i>
+        </p>
+    </footer>
+
+</body>
+</html>
